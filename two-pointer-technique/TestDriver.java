@@ -24,6 +24,13 @@ public class TestDriver {
 
         ContainerWithMostWater con = new ContainerWithMostWater();
         System.out.println(con.maxArea(new int[]{5, 2, 6, 7, 1, 8}));
+
+        ProductOfArrayExceptSelf productOfArrayExceptSelf = new ProductOfArrayExceptSelf();
+        int[] product = productOfArrayExceptSelf.productExceptSelf(new int[] {1, 2, 3, 4});
+        for (int element : product) {
+            System.out.print(element + " ");
+        }
+        System.out.println();
     }
 
 }
